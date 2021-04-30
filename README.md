@@ -70,7 +70,7 @@ names: [ "car", "bike","dog","person"]
 Getting started wiht the installation make a new conda `env`
 
 ```
-
+conda create -n yolo python=3.6.7
 ```
 activate `env` and `cd` to a `dir` where you will keep all your `data` and `scripts`.
 
