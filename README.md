@@ -19,6 +19,8 @@ I'll be using the [Roboflow Scaled YOLOv4](https://github.com/roboflow-ai/Scaled
 3. Installing repo
 4. Installing/Troublshooting `mish-cuda`.
 
+Original [Colab Notebook](https://colab.research.google.com/drive/1LDmg0JRiC2N7_tx8wQoBzTB0jUZhywQr#scrollTo=odKEqYtTgbRc)
+
 ## Dataset Preparation
 
 First to train an object detection model you need a dataset annotated in proper format so download publically available datasets from [here](https://public.roboflow.com/).
