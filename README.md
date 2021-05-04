@@ -114,3 +114,7 @@ sudo cp /usr/local/cuda-10.0/include/cublas_api.h /usr/local/cuda-10.1/targets/x
 ln -s /usr/include/cublas_v2.h /usr/local/cuda-10.1/targets/x86_64-linux/include/cublas_v2.h
 ```
 
+## Evaluation
+
+For in depth evaluation you can run the `my_inference.py` file form the scripts.
+
