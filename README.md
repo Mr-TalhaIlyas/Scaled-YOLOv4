@@ -1,6 +1,12 @@
-# YOLO v4
+# Scaled YOLO v4
 
 This repo exaplins how to train [Scaled_YOLOv4](https://arxiv.org/abs/2011.08036) model on your custom dataset. 
+
+### About Scaled YOlO v4
+The YOLOv4 object detection neural network based on the CSP approach, scales both up and down and is applicable to small and large networks while maintaining optimal speed and accuracy. We propose a network scaling approach that modifies not only the depth, width, resolution, but also structure of the network. YOLOv4-large model achieves state-of-the-art results: 55.5% AP (73.4% AP50) for the MS COCO dataset at a speed of ~16 FPS on Tesla V100, while with the test time augmentation, YOLOv4-large achieves 56.0% AP (73.3 AP50). To the best of our knowledge, this is currently the highest accuracy on the COCO dataset among any published work. The YOLOv4-tiny model achieves 22.0% AP (42.0% AP50) at a speed of 443 FPS on RTX 2080Ti, while by using TensorRT, batch size = 4 and FP16-precision the YOLOv4-tiny achieves 1774 FPS.
+### Model Architecture
+
+### Comparison with other models
 
 ## Dependencies
 
@@ -25,7 +31,7 @@ Original [Colab Notebook](https://colab.research.google.com/drive/1LDmg0JRiC2N7_
 
 First to train an object detection model you need a dataset annotated in proper format so download publically available datasets from [here](https://public.roboflow.com/).
 I'd recommend starting by downloading already available dataset. There are alot of format options available in Roboflow but for this repo we need `YOLO v5 PyTorch` as this 
-Scaled YOLO v4 repo is also built on top on [YOLOv5]() one.
+Scaled YOLO v4 repo is also built on top on [YOLOv5](https://github.com/Mr-TalhaIlyas/YOLO-v5) one.
 
 or you can also make you own dataset using `labelimg`. A full tutorial for that is [here](https://github.com/tzutalin/labelImg)
 The ouput annotation file for label me is `.xml` format but our yolov4 model can't read that so we need to convert the dataset into proper format
