@@ -5,9 +5,9 @@ This repo exaplins how to train [Scaled_YOLOv4](https://arxiv.org/abs/2011.08036
 ### About Scaled YOlO v4
 The YOLOv4 object detection neural network based on the CSP approach, scales both up and down and is applicable to small and large networks while maintaining optimal speed and accuracy. We propose a network scaling approach that modifies not only the depth, width, resolution, but also structure of the network. YOLOv4-large model achieves state-of-the-art results: 55.5% AP (73.4% AP50) for the MS COCO dataset at a speed of ~16 FPS on Tesla V100, while with the test time augmentation, YOLOv4-large achieves 56.0% AP (73.3 AP50). To the best of our knowledge, this is currently the highest accuracy on the COCO dataset among any published work. The YOLOv4-tiny model achieves 22.0% AP (42.0% AP50) at a speed of 443 FPS on RTX 2080Ti, while by using TensorRT, batch size = 4 and FP16-precision the YOLOv4-tiny achieves 1774 FPS.
 ### Model Architecture
-
+![alt text](https://github.com/Mr-TalhaIlyas/Scaled-YOLOv4/blob/master/screens/image-2.png)
 ### Comparison with other models
-
+![alt text](https://github.com/Mr-TalhaIlyas/Scaled-YOLOv4/blob/master/screens/image.png)
 ## Dependencies
 
 Some of the main requirements are
