@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch%20-%23EE4C2C.svg?&style=for-the-badge&logo=PyTorch&logoColor=white" />
 # Scaled YOLO v4
 
 This repo exaplins how to train [Scaled_YOLOv4](https://arxiv.org/abs/2011.08036) model on your custom dataset. 
