@@ -130,3 +130,12 @@ For in depth evaluation you can run the `my_inference.py` file form the scripts.
 ## ⚠⚠ Note 
 This repo first creates a cache file where it sores the images and labels for faster training so every time you run the model from start its better to remove those cache files first to avoid getting unwanted errors or warnings.
 
+## Citation 
+```
+@article{wang2020scaled,
+  title={{Scaled-YOLOv4}: Scaling Cross Stage Partial Network},
+  author={Wang, Chien-Yao and Bochkovskiy, Alexey and Liao, Hong-Yuan Mark},
+  journal={arXiv preprint arXiv:2011.08036},
+  year={2020}
+}
+```
